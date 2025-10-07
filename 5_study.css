@@ -1,0 +1,72 @@
+.study{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('nstudy.jpeg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.parent2{
+    height:50vh;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 1.5rem;
+    border: 0.1rem solid rgb(174, 230, 174);
+}
+#studyform{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+.tskdate{
+    display: flex;
+}
+.studytask{
+    display: flex;
+}
+#taskadd{
+    height:7vh;
+    width: 30vw;
+    font-size:1.5rem;
+    border-radius: 1.5rem;
+    color: #06315d;
+    border: none;
+    border: 0.1rem solid rgb(174, 230, 174);
+}
+#studydate{
+    height: 7vh;
+    width: 10vw; 
+    border-radius: 1.5rem;
+    font-size: 1.5rem;
+    border: none;
+    margin-left: 20px;
+    border: 0.1rem solid rgb(174, 230, 174);
+ }
+ #studysubmit{
+    height: 7vh;
+    width: 10vw;
+    border-radius:1.5rem ;
+    background-color: white;
+    font-size:1.5rem ;
+    border: none;
+    margin-top: 20px;
+    border: 0.1rem solid rgb(174, 230, 174);
+ }
+ #listoftasks{
+    width:40vw;
+    background-color:white;
+    border-radius: 1.5rem;
+    display: flex; 
+    flex-direction: column;
+    font-size: 1.5rem;
+    padding-left: 25px;
+    border:0.1rem solid rgb(174, 230, 174);
+}
+#studysubmit :active{
+    background-color: bisque;
+}

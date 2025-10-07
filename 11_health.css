@@ -1,0 +1,68 @@
+.healthcare{
+    height: 100vh;
+    width: 100vw; 
+    background-image:url('nhealth.jpeg'); 
+    display:flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    background-size: cover;
+} 
+#parent2{
+    height:50vh;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 1.5rem;
+    border: 0.1rem solid rgb(111, 162, 213);
+}
+#healthform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#taskadder{
+    height: 7vh;
+    width: 30vw;
+    font-size:1.5rem;
+    border-radius: 1.5rem;
+    /* background-color: #fce8d8; */
+    border: none;
+    border: 0.1rem solid rgb(111, 162, 213);
+}
+#healthdate{
+    height: 7vh;
+    width:10vw; 
+    border-radius: 1.5rem;
+    margin-left: 20px;
+    font-size: 1.5rem;
+    border: none;
+    border: 0.1rem solid rgb(111, 162, 213);
+}
+.tskanddate{
+    display: flex;
+}
+#taskslist{
+    width:40vw;
+    background-color:white;
+    border-radius: 1.5rem;
+    display: block;
+    display: flex; 
+    flex-direction: column;
+    font-size: 1.5rem;
+    padding-left: 25px;
+    border:0.1rem solid rgb(111, 162, 213);
+}
+#healthsubmit{
+    height: 7vh;
+    width: 10vw;
+    border-radius:1.5rem ;
+     background-color:white;
+    font-size:1.5rem ;
+    border: none;
+    margin-top: 20px;
+    border: 0.1rem solid rgb(111, 162, 213);
+}
